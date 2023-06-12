@@ -3,6 +3,11 @@
         "car_show_ui": {
             "type": "@reactapp.spa",
             "bundler": "webpack",
+            "Codebuild Project": {
+                "runtime_versions": {
+                  "nodejs": 14
+                }
+              },
             "config":{
                 "path":"src/config/config.js",
                 "data": {
